@@ -1,0 +1,84 @@
+// Archivo styles.scss
+
+$color-primario: #336699;
+$color-secundario: #CCCCCC;
+
+// Estilos generales
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F2F2F2;
+  margin: 0;
+  padding: 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  color: $color-primario;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+// Estilos del menú
+nav {
+  background-color: $color-primario;
+  padding: 10px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+
+      a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 5px;
+
+        &:hover {
+          background-color: darken($color-primario, 10%);
+        }
+      }
+    }
+  }
+}
+
+// Estilos del desplegable
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: $color-secundario;
+  min-width: 200px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

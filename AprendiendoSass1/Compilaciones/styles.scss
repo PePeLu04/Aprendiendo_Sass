@@ -1,0 +1,20 @@
+// Archivo styles.scss
+
+// Variables
+$color-primario: #FF0000;
+$color-secundario: #00FF00;
+
+// Estilos
+body {
+  background-color: $color-primario;
+  color: $color-secundario;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+}

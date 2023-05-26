@@ -1,0 +1,28 @@
+$colors: #F9C5C5, #F9EAC5, #C5F9C8, #C5CFF9, #AC2BCD, #DAAE1B;
+
+@each $color in $colors {
+  $index: index($colors, $color);
+  .modulo-dam tr:nth-child(#{$index}) {
+    background-color: $color;
+  }
+}
+
+.modulo-dam table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+.modulo-dam th,
+.modulo-dam td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: 50px + (6 - $i) * 2px;
+  }
+}
+

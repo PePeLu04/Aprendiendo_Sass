@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'estructuras_repetitivas';
+@import 'funciones';
+@import 'temas';
+@import 'mixins';
+@import 'menu';
+
+.elemento {
+  @include centrar-bloque;
+}
+
+.contenedor {
+  @include centrar-elementos;
+}
+
+

@@ -1,0 +1,12 @@
+@each $color in $colors {
+  $index: index($colors, $color);
+  .modulo-dam tr:nth-child(#{$index}) {
+    background-color: $color;
+  }
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: 50px + (6 - $i) * 2px;
+  }
+}

@@ -1,0 +1,62 @@
+.modulo-dam tr:nth-child(1) {
+  background-color: #F9C5C5;
+}
+
+.modulo-dam tr:nth-child(2) {
+  background-color: #F9EAC5;
+}
+
+.modulo-dam tr:nth-child(3) {
+  background-color: #C5F9C8;
+}
+
+.modulo-dam tr:nth-child(4) {
+  background-color: #C5CFF9;
+}
+
+.modulo-dam tr:nth-child(5) {
+  background-color: #AC2BCD;
+}
+
+.modulo-dam tr:nth-child(6) {
+  background-color: #DAAE1B;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 58px;
+}
+
+h3 {
+  font-size: 56px;
+}
+
+h4 {
+  font-size: 54px;
+}
+
+h5 {
+  font-size: 52px;
+}
+
+h6 {
+  font-size: 50px;
+}
+
+.modulo-dam table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+.modulo-dam th,
+.modulo-dam td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+/*# sourceMappingURL=cv.css.map */

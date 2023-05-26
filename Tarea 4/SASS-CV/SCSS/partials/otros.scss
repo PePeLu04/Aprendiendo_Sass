@@ -1,0 +1,8 @@
+@use "functions";
+@use "vars" as vars;
+
+@for $i from 1 through length(vars.$colors) {
+  .section-title-#{$i} {
+    color: functions.colorSectionTitle($i);
+  }
+}

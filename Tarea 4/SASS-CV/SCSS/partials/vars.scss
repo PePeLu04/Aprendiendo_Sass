@@ -1,0 +1,24 @@
+// Definición de colores
+$color-light: #ffffff;
+$color-dark: #000000;
+
+// Variable para el modo
+$mode: dark !default;
+
+// Verificación del modo y asignación de colores
+@if $mode == dark {
+  $primary-color: $color-dark;
+  $secondary-color: darken($color-dark, 20%);
+} @else {
+  $primary-color: $color-light;
+  $secondary-color: lighten($color-light, 20%);
+}
+
+
+$colors: (
+  red,
+  blue,
+  green,
+  yellow,
+  orange
+);

@@ -1,0 +1,19 @@
+@mixin reset {
+  margin: 0;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+}
+
+@mixin centrado($margin-top, $margin-bottom, $size) {
+  margin-top: $margin-top;
+  margin-bottom: $margin-bottom;
+  width: $size;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  @include centrado(20px, 20px, 80%);
+}

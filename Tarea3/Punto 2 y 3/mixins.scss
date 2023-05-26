@@ -1,0 +1,11 @@
+@mixin centrar-bloque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin centrar-elementos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
